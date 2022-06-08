@@ -2,6 +2,7 @@
 - My solutions to katas on CodeWars
 - Test algorithms for the solutions are available in their respective links.
 - [Visit my profile](https://www.codewars.com/users/mfelipegs)
+___
 
 ## Convert a string to number
 - ***Link:*** https://www.codewars.com/kata/544675c6f971f7399a000e79
@@ -14,6 +15,7 @@ def string_to_number(s):
     return number
 
 ```
+___
 
 ## Count of positives / sum of negatives
 - ***Link:*** https://www.codewars.com/kata/576bb71bbbcf0951d5000044
@@ -26,6 +28,7 @@ def count_positives_sum_negatives(arr):
     sum_of_negatives = sum(y for y in arr if y < 0)
     return [count_of_positives] + [sum_of_negatives] if arr else []
 ```
+___
 
 ## Define a card suit
 - ***Link:*** https://www.codewars.com/kata/define-a-card-suit/
@@ -72,6 +75,7 @@ function defineSuit(card) {
     }
 }
 ```
+___
 
 ## Detect pangram
 - ***Link:*** https://www.codewars.com/kata/545cedaa9943f7fe7b000048
@@ -88,6 +92,7 @@ def is_pangram(s):
     return True
 
 ```
+___
 
 ## Even or odd
 - ***Link:*** https://www.codewars.com/kata/53da3dbb4a5168369a0000fe
@@ -115,6 +120,7 @@ function even_or_odd(number) {
 }
 
 ```
+___
 
 ## Remove string spaces
 - ***Link:*** https://www.codewars.com/kata/57eae20f5500ad98e50002c5
