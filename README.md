@@ -1,9 +1,19 @@
 # kata-code-solutions
-My solutions to katas on CodeWars 
-Test algorithms are available in their respective katas in Codewars.
-[Visit my profile](https://www.codewars.com/users/mfelipegs)
+- My solutions to katas on CodeWars
+- Test algorithms for the solutions are available in their respective links.
+- [Visit my profile](https://www.codewars.com/users/mfelipegs)
 
 ## Convert a string to number
+- ***Link:*** https://www.codewars.com/kata/544675c6f971f7399a000e79
+- ***Description:*** Transform a string into a number. All inputs will be strings, and every string is a perfectly valid representation of an integral number.
+- ***A simple use of the ```int``` function solves the problem:***
+###Python solution
+```python
+def string_to_number(s):
+    number = int(s)
+    return number
+
+```
 
 ## Count of positives / sum of negatives
 - ***Link:*** https://www.codewars.com/kata/576bb71bbbcf0951d5000044
