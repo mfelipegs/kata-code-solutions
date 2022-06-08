@@ -6,8 +6,8 @@
 ## Convert a string to number
 - ***Link:*** https://www.codewars.com/kata/544675c6f971f7399a000e79
 - ***Description:*** Transform a string into a number. All inputs will be strings, and every string is a perfectly valid representation of an integral number.
-- ***A simple use of the ```int``` function solves the problem:***
-###Python solution
+### Python solution
+A simple use of the ```int``` function solves the problem:
 ```python
 def string_to_number(s):
     number = int(s)
@@ -19,17 +19,19 @@ def string_to_number(s):
 - ***Link:*** https://www.codewars.com/kata/576bb71bbbcf0951d5000044
 - ***Description:*** Given an array of integers, return an array, where the first element is the count of positives numbers and the second element is sum of negative numbers. 0 is neither positive nor negative. If the input is an empty array or is null, return an empty array.
 ### Python solution
+A 0.12ms solution:
 ```python
-def string_to_number(s):
-    number = int(s)
-    return number
+def count_positives_sum_negatives(arr):
+    count_of_positives = len([x for x in arr if x > 0])
+    sum_of_negatives = sum(y for y in arr if y < 0)
+    return [count_of_positives] + [sum_of_negatives] if arr else []
 ```
 
 ## Define a card suit
 - ***Link:*** https://www.codewars.com/kata/define-a-card-suit/
 - ***Description:*** You get any card as an argument. Your task is to return the suit of this card (in lowercase).
 ### Python solution
-- ***The solution I made:***
+The solution I made:
 ```python
 def define_suit(card):
     if "C" in card:
@@ -45,7 +47,7 @@ def define_suit(card):
 ```
 
 ### JavaScript solution
-- ***A simple solution with condition structure:***
+A simple solution with condition structure:
 ```js
 function defineSuit(card) {
   if(card.match("♣"))
